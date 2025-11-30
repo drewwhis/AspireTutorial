@@ -10,6 +10,9 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 
 builder.Services.AddMsalAuthentication(options =>
 {
+    options.ProviderOptions.DefaultAccessTokenScopes.Add("https://graph.microsoft.com/User.Read");    
+    options.ProviderOptions.LoginMode = "redirect";
+
     builder.Configuration.Bind("AzureAd", options.ProviderOptions.Authentication);
 });
 
