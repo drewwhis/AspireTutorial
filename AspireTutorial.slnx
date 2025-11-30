@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="compose.yaml" />
+  </Folder>
+  <Project Path="AspireTutorial.API/AspireTutorial.API.csproj" />
+  <Project Path="AspireTutorial.Blazor.ClientApp/AspireTutorial.Blazor.ClientApp.csproj" />
+  <Project Path="AspireTutorial.ServiceDefaults/AspireTutorial.ServiceDefaults.csproj" />
+  <Project Path="AspireTutorial/AspireTutorial.csproj" />
+</Solution>

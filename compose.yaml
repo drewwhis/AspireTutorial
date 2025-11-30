@@ -1,0 +1,7 @@
+﻿services:
+  aspiretutorial.api:
+    image: aspiretutorial.api
+    build:
+      context: .
+      dockerfile: AspireTutorial.API/Dockerfile
+
